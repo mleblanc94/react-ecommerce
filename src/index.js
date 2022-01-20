@@ -7,7 +7,7 @@ import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home greeting={`Hello What is going on`}/>
+    <Home greeting={`Hello What is going on you wuss`}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
