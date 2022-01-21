@@ -4,10 +4,11 @@ import './index.css';
 import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import Card from './Card';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home greeting={`Hello What is going on you wuss`}/>
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
